@@ -17,16 +17,16 @@ ul {
 
 li {
   list-style: none;
-  color: #878787;
   margin: 0;
   padding: 0;
+  color: rgb(135, 135, 135);
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
 
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
@@ -71,4 +71,23 @@ li::first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-date {
+  font-size: 16;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
 }
